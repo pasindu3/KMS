@@ -1,0 +1,6 @@
+models:
+  Analytics:  # Replace with your actual project name
+    KMS:
+      +materialized: table
+      clean_notion_pages:
+        +enabled: true
